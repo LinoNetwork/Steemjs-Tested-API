@@ -1,5 +1,5 @@
 var steem=require('steem');
 
-steem.api.getState('/trends/bitcoin', function(err, result) {
+steem.api.getState('', function(err, result) {
 	console.log(err, result);
 });
