@@ -1,4 +1,4 @@
 var steem=require('steem');
-steem.broadcast.deleteComment('5JsVFRbQEKJ8kDUdNQ5nhRC7CuPnWREzC2MzfqDSY89mQWbHAUc', 'vily', 'my-first-post', function(err, result) {
+steem.broadcast.deleteComment('5JHC8k5a5eLbxLsW5DCTe3JHrjGGzh13UQG8TKTvKxWMJLnHK92', 'vily', 'my-first-post', function(err, result) {
   console.log(err, result);
 });
